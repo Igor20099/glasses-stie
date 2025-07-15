@@ -74,6 +74,94 @@
     margin-top: 26px;
 }
 
+.catalog {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.catalog-title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 49.5px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color:#1A1818;
+    width: 956px;
+    margin-top: 51px;
+    margin-bottom: 63px;
+}
+
+.krafft {
+    position: relative;
+    width: 555px;
+    height: 686px;
+    background: #fff;
+    margin-right: 30px;
+}
+
+.rect-wrapper {
+    position: absolute;
+    top:19px;
+    right: 19px;
+}
+
+.krafft-info {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 71px;
+    margin-top: 9px;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.craft, .chantilly-text {
+    position: absolute;
+    border: 1px solid #1A1818;
+    border-radius: 40px;
+    padding: 5px 9px 4px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    top:18px;
+    left:18px;
+    color:#1A1818;
+}
+
+.card-wrapper {
+    position: absolute;
+    top:19px;
+    right: 19px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 71px;
+    margin-top: 9px;
+}
+
+.container {
+    display: flex;;
+}
+
+.card {
+    position: relative;
+}
+
+.prix-justes {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.prix-info {
+    margin-top: 184px;
+}
+
 .product {
     display: flex;
     flex-direction: column;
