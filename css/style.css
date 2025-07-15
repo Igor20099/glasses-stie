@@ -145,21 +145,48 @@
 }
 
 .container {
-    display: flex;;
+    display: flex;
+    margin-bottom: 101px;
 }
 
 .card {
     position: relative;
 }
 
-.prix-justes {
+.prix-justes, .expertise-optique{
     width: 1200px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 99px;
+}
+
+.prix-title {
+
+font-weight: 400;
+font-size: 54px;
+line-height: 60.75px;
+letter-spacing: 0%;
+text-transform: uppercase;
+margin-bottom: 15px;
+
 }
 
 .prix-info {
     margin-top: 184px;
+    margin-right: 200px;
+}
+
+.prix-description {
+    width: 385px;
+    font-size: 24px;
+}
+
+.prix-description:last-of-type {
+    margin-bottom: 41px;
+}
+
+.expretise-optique-image {
+    margin-right: 30px;
 }
 
 .product {
